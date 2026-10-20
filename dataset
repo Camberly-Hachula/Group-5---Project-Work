@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipe_book>
     <recipe>
-    <recipe_ID>1</recipe_ID>
-    <recipe_name>    </recipe_name>
-    <prep_time>15</prep_time>
-    <allergen>Gluten</allergen>
-    <allergen>Soy</allergen>
-    <allergen>Nut</allergen>
-    <allergen>Milk</allergen>
-    <dietary_category>Vegetarian</dietary_category>
-    <dietary_category>Vegan</dietary_category>
-    <url>    </url>
+        <recipe_ID>1</recipe_ID>
+        <recipe_name>    </recipe_name>
+        <prep_time>15</prep_time>
+
+        <dietary_labels>
+            <label>Gluten_Free</label>
+            <label>Soy_Free</label>
+            <label>Nut_Free</label>
+            <label>Diary_Free</label>
+            <label>Egg_Free</label>
+        </dietary_labels>
+
+        <dietary_category>
+            <category>Vegetarian</category>
+            <category>Vegan</category>
+        </dietary_category>
+
+        <url>    </url>
+
     </recipe>
+
 </recipe_book>
