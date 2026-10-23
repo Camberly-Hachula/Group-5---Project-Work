@@ -386,7 +386,7 @@
     <recipe>
         <recipe_ID>28</recipe_ID>
         <recipe_name>Mushroom doner</recipe_name>
-        <prep_time>40 min</prep_time>
+        <prep_time>40</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Nut_Free</label>
@@ -399,7 +399,7 @@
     <recipe>
         <recipe_ID>29</recipe_ID>
         <recipe_name>Sticky chipotle tofu tacos</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -414,7 +414,7 @@
     <recipe>
         <recipe_ID>30</recipe_ID>
         <recipe_name>Sticky sambal tofu and saucy satay noodles</recipe_name>
-        <prep_time>40 min</prep_time>
+        <prep_time>40</prep_time>
         <dietary_labels>
             <label>Dairy_Free</label>
             <label>Egg_Free</label>
@@ -428,7 +428,7 @@
     <recipe>
         <recipe_ID>31</recipe_ID>
         <recipe_name>Halloumi hash</recipe_name>
-        <prep_time>40 min</prep_time>
+        <prep_time>40</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -442,7 +442,7 @@
     <recipe>
         <recipe_ID>32</recipe_ID>
         <recipe_name>Veggie shepherd's pie with sweet potato mash</recipe_name>
-        <prep_time>60 min</prep_time>
+        <prep_time>60</prep_time>
         <dietary_labels>
             <label>Soy_Free</label>
             <label>Nut_Free</label>
@@ -456,7 +456,7 @@
     <recipe>
         <recipe_ID>33</recipe_ID>
         <recipe_name>Green shakshuka with feta and herbs</recipe_name>
-        <prep_time>45 min</prep_time>
+        <prep_time>45</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -471,7 +471,7 @@
     <recipe>
         <recipe_ID>34</recipe_ID>
         <recipe_name>Fennel and potato gratin</recipe_name>
-        <prep_time>60 min</prep_time>
+        <prep_time>60</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -486,7 +486,7 @@
     <recipe>
         <recipe_ID>35</recipe_ID>
         <recipe_name>Socca pancakes with roasted peppers and avocado</recipe_name>
-        <prep_time>45 min</prep_time>
+        <prep_time>45</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -503,7 +503,7 @@
     <recipe>
         <recipe_ID>36</recipe_ID>
         <recipe_name>Cold kimchi noodles</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Dairy_Free</label>
             <label>Nut_Free</label>
@@ -516,7 +516,7 @@
     <recipe>
         <recipe_ID>37</recipe_ID>
         <recipe_name>Salsa, chickpea and couscous salad</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Dairy_Free</label>
@@ -532,7 +532,7 @@
     <recipe>
         <recipe_ID>38</recipe_ID>
         <recipe_name>Chilli oil noodles with garlicky greens</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Dairy_Free</label>
             <label>Nut_Free</label>
@@ -545,7 +545,7 @@
     <recipe>
         <recipe_ID>39</recipe_ID>
         <recipe_name>Spicy tofu fajitas</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -561,7 +561,7 @@
     <recipe>
         <recipe_ID>40</recipe_ID>
         <recipe_name>Mushroom, chestnut and squash filo pie</recipe_name>
-        <prep_time>90 min</prep_time>
+        <prep_time>90</prep_time>
         <dietary_labels>
             <label>Soy_Free</label>
         </dietary_labels>
@@ -573,7 +573,7 @@
     <recipe>
         <recipe_ID>41</recipe_ID>
         <recipe_name>Courgette parmigiana</recipe_name>
-        <prep_time>90 min</prep_time>
+        <prep_time>90</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Soy_Free</label>
@@ -586,7 +586,7 @@
     <recipe>
         <recipe_ID>42</recipe_ID>
         <recipe_name>Vegan wellington</recipe_name>
-        <prep_time>90 min</prep_time>
+        <prep_time>90</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Dairy_Free</label>
@@ -600,7 +600,7 @@
     <recipe>
         <recipe_ID>43</recipe_ID>
         <recipe_name>Crisp Gnocchi with Brussels Sprouts and Brown Butter</recipe_name>
-        <prep_time>20 min</prep_time>
+        <prep_time>20</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Soy_Free</label>
@@ -614,7 +614,7 @@
     <recipe>
         <recipe_ID>44</recipe_ID>
         <recipe_name>Gochujang Buttered Pasta Noodles</recipe_name>
-        <prep_time>25 min</prep_time>
+        <prep_time>25</prep_time>
         <dietary_labels>
             <label>Nut_Free</label>
         </dietary_labels>
@@ -626,7 +626,7 @@
     <recipe>
         <recipe_ID>45</recipe_ID>
         <recipe_name>Spinach soup</recipe_name>
-        <prep_time>25 min</prep_time>
+        <prep_time>25</prep_time>
         <dietary_labels>
             <label>Egg_Free</label>
             <label>Nut_Free</label>
@@ -640,7 +640,7 @@
     <recipe>
         <recipe_ID>46</recipe_ID>
         <recipe_name>Vegan mac and cheese</recipe_name>
-        <prep_time>35 min</prep_time>
+        <prep_time>35</prep_time>
         <dietary_labels>
             <label>Soy_Free</label>
             <label>Dairy_Free</label>
@@ -655,7 +655,7 @@
     <recipe>
         <recipe_ID>47</recipe_ID>
         <recipe_name>Kadala curry</recipe_name>
-        <prep_time>40 min</prep_time>
+        <prep_time>40</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -672,7 +672,7 @@
     <recipe>
         <recipe_ID>48</recipe_ID>
         <recipe_name>Squash dhansak</recipe_name>
-        <prep_time>20 min</prep_time>
+        <prep_time>20</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -688,7 +688,7 @@
     <recipe>
         <recipe_ID>49</recipe_ID>
         <recipe_name>Broccoli gnocchi</recipe_name>
-        <prep_time>15 min</prep_time>
+        <prep_time>15</prep_time>
         <dietary_labels>
             <label>Soy_Free</label>
             <label>Gluten_Free</label>
@@ -701,7 +701,7 @@
     <recipe>
         <recipe_ID>50</recipe_ID>
         <recipe_name>Vegan thai green curry</recipe_name>
-        <prep_time>30 min</prep_time>
+        <prep_time>30</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -718,7 +718,7 @@
     <recipe>
         <recipe_ID>51</recipe_ID>
         <recipe_name>Tofu chilli greens</recipe_name>
-        <prep_time>25 min</prep_time>
+        <prep_time>25</prep_time>
         <dietary_labels>
             <label>Dairy_Free</label>
             <label>Nut_Free</label>
@@ -733,7 +733,7 @@
     <recipe>
         <recipe_ID>52</recipe_ID>
         <recipe_name>Mint basil griddled peach salad</recipe_name>
-        <prep_time>35 min</prep_time>
+        <prep_time>35</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -750,7 +750,7 @@
     <recipe>
         <recipe_ID>53</recipe_ID>
         <recipe_name>Vegan leek potato soup</recipe_name>
-        <prep_time>35 min</prep_time>
+        <prep_time>35</prep_time>
         <dietary_labels>
             <label>Nut_Free</label>
             <label>Dairy_Free</label>
@@ -766,7 +766,7 @@
     <recipe>
         <recipe_ID>54</recipe_ID>
         <recipe_name>Quinoa salad grilled halloumi</recipe_name>
-        <prep_time>40 min</prep_time>
+        <prep_time>40</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
@@ -781,7 +781,7 @@
     <recipe>
         <recipe_ID>55</recipe_ID>
         <recipe_name>Rustic vegetable soup</recipe_name>
-        <prep_time>45 min</prep_time>
+        <prep_time>45</prep_time>
         <dietary_labels>
             <label>Gluten_Free</label>
             <label>Nut_Free</label>
