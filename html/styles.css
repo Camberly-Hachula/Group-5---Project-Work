@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-image: url("images/indexbackground.jpg");
+    background-image: url("images/indexbackground2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,18 +11,42 @@ body.subpage {
     background-image: url("images/background2.jpg");
 }
 
+@font-face {
+    font-family: CreatoDisplay-Medium;
+    src:url("fonts/CreatoDisplay-Medium.otf");
+}
+
+@font-face {
+    font-family: Belgiano-Serif-2;
+    src:url("fonts/Belgiano-Serif-2.ttf");
+}
+
+@font-face {
+    font-family: CreatoDisplay-Bold;
+    src:url("fonts/CreatoDisplay-Bold.otf");
+}
+
 h1 {
-    font-family: Georgia, serif;
-    font-size: 45px;
-    color: #E87B07;
+    font-family: Belgiano-Serif-2, serif;
+    font-size: 55px;
+    color: #ee7405;
     text-align: center;
 }
 
 h2 {
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
-    color: #E87B07;
+    font-family: CreatoDisplay-Medium, sans-serif;
+    font-size: 17px;
+    color: #F07837;
     text-align: center;
+}
+
+h3 {
+    font-family: CreatoDisplay-Medium, sans-serif;
+    font-size: 17px;
+    color: #F07837;
+    text-align: center;
+    margin-top: -25px;
+    padding-bottom: 10px;
 }
 
 ul#navigation {
@@ -30,7 +54,7 @@ ul#navigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #356B30;
+    background-color: #7EA64A;
 }
 
 ul#navigation li {
@@ -39,19 +63,20 @@ ul#navigation li {
 
 ul#navigation li a {
     display: block;
-    color: white;
+    color: #F4F7E1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Verdana, sans-serif;
+    font-family: CreatoDisplay-Bold, sans-serif;
 }
 
 #navigation li a:hover {
-    background-color: #479041;
+    background-color: #87B14F;
 }
 
 p {
-    font-family: Verdana, sans-serif;
+    font-family: CreatoDisplay-Medium, sans-serif;
+    color: #575444;
     margin-left: 10px;
     margin-right: 320px;
 }
@@ -115,7 +140,7 @@ p {
     padding: 15px;
     width: 240px;
     text-align: center;
-    border: 2px solid #356B30;
+    border: 2px solid #7EA64A;
 }
 
 .team-emoji {
