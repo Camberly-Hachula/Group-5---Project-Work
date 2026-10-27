@@ -42,7 +42,58 @@
     <h2>Explore Our Algorithm</h2>
     <p>Below you can explore the pseudocode for our recipe search algorithm.</p>
 
-    <iframe class="algorithm-frame" src="algorithm.txt" title="Algorithm pseudocode"></iframe>
+    <div class="algorithm-scroll">
+    <h3>Scenario 1:</h3>
+
+        <pre>WRITE “Which restriction?” (egg-free)
+READ chosen_label
+WRITE “Maximum preparation time in minutes?” (20 minutes)
+READ max_time
+
+found = 0
+READ first recipe (recipe_ID, recipe_name, prep_time, dietary_labels)
+
+WHILE recipe meets requirements
+    IF dietary_labels contains chosen_label
+        IF prep_time < max_time
+            WRITE recipe_ID, recipe_name, prep_time, dietary_labels
+            found = found + 1
+        ENDIF
+    ENDIF
+    READ next recipe
+ENDWHILE
+
+IF found = 0
+    WRITE "No recipes were found."
+ENDIF</pre>
+
+        <h3>Scenario 2:</h3>
+        <pre>WRITE “Which dietary category” (vegan)
+READ chosen_category
+WRITE “Which restriction?” (soy-free)
+READ chosen_label
+WRITE “Maximum preparation time in minutes?” (30 minutes)
+READ max_time
+
+found = 0
+READ first recipe (recipe_ID, recipe_name, prep_time, dietary_category, dietary_labels)
+
+WHILE recipe meets requirements
+  IF dietary_category = chosen_category
+        IF dietary_labels contains chosen_label
+            IF prep_time < max_time
+                WRITE recipe_ID, recipe_name, prep_time, dietary_category, dietary_labels
+                found = found + 1
+            ENDIF
+        ENDIF
+    ENDIF
+    READ next recipe
+ENDWHILE
+
+IF found = 0
+    WRITE "No results were found."
+ENDIF</pre>
+    </div>
 </div>
 
 </body>

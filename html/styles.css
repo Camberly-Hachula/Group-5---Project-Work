@@ -1,14 +1,19 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-image: url("images/indexbackground2.jpg");
+    background-image: url("images/indexbackground1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: top center;
+    background-color: #F4F7E1;
 }
 
 body.subpage {
-    background-image: url("images/background2.jpg");
+    background-image: url("images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;;
+    background-position: top center;
+    background-color: #F7F1E5;
 }
 
 @font-face {
@@ -81,13 +86,12 @@ p {
     margin-right: 320px;
 }
 
-/* Home page */
 .home-intro,
 .home-info {
     background-color: white;
-    max-width: 750px;
-    margin: 25px auto;
-    padding: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
     text-align: center;
 }
 
@@ -97,7 +101,6 @@ p {
     line-height: 1.5;
 }
 
-/* Dataset page */
 .dataset-info {
     background-color: white;
     max-width: 800px;
@@ -110,7 +113,6 @@ p {
     line-height: 1.5;
 }
 
-/* Algorithm page */
 .algorithm-info {
     background-color: white;
     max-width: 800px;
@@ -123,7 +125,6 @@ p {
     line-height: 1.5;
 }
 
-/* Team page */
 .team-section {
     margin: 20px;
 }
@@ -175,7 +176,6 @@ p {
     line-height: 1.5;
 }
 
-/* XML dataset */
 .xml-scroll {
     max-height: 300px;
     overflow: auto;
@@ -190,10 +190,16 @@ p {
     white-space: pre;
 }
 
-/* Algorithm pseudocode */
-.algorithm-frame {
-    width: 100%;
-    height: 300px;
+.algorithm-scroll {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
     border: 1px solid #356B30;
-    background-color: white;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.algorithm-scroll h3 {
+    margin-top: 10px;
+    padding-top: 5px;
 }
