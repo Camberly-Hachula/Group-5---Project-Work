@@ -1,0 +1,30 @@
+Scenario 1: The user wants to find a quick recipe that does not contain any eggs.
+Example question: 'Can you find an egg-free recipe that takes less than 20 minutes to prepare?'
+
+1. User selects a dietary restriction (e.g. "egg-free").
+2. User sets maximum preparation time ("20 minutes", as an integer).
+3. Algorithm checks each recipe in the database against both conditions.
+4. Recipe that meet both requirements are displayed.
+5. If no recipe match, website displays message informing user that no recipes were found.
+
+Main idea was to design this algorithm was to let user can put in dietary restriction and preparation time (WRITE, READ) and if these conditions are met, recipes are shown, otherwise message will be displayed (WHILE-Loop).
+
+So first, I need to design something to let the user define the restrictions by using WRITE to indicate outputting data. After every WRITE-restriction, I need READ that indicates inputting data of the user, our variable which is being checked using our dataset.
+
+After that, I need a counter (found = 0), if not, than no recipes are added into our result.
+With the WHILE-Loop, it checks each recipe in the database, if it fits our criteria. 
+For that, we need an IF-clause to check if have recipes that fit the input from our user. If so, the recipe ID and name, the prep time and dietary label will be stated and added in to our list of results. Those IF-conditions need to be closed by an ENDIF command and the conditions will be checked with every recipe until the last recipe.
+
+If no recipe fits our criteria, there will be 'No recipes found' stated.
+
+
+For scenario 2, the user wants a vegan recipe that avoids a specific allergen and takes no more than 30 minutes to prepare.
+
+1. User selects "vegan" or "vegetarian"
+2. User selects allergen restriction "egg-free / soy-free / gluten-free / nut-free / dairy-free"
+3. User selects sets a maximum preparation time (e.g. 30 minutes, as an integer). 
+4. Algorithm checks each recipe against all conditions.
+Only recipes that meet requirements are displayed with recipe name, recipe ID, allergen and dietary restriction.
+5. If no recipes match, website informs user that no results were found.
+
+The algorithm is very similar to the first algorithm. The only difference is that there was one additional requirement where we need to add another WRITE/READ Command to add in the user's dietary requirement and another IF Command to define that this requirements needs to be checked with the dataset.
