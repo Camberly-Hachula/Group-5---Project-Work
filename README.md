@@ -13,19 +13,19 @@ Each recipe includes information to help users identify suitable meals.
 
 The dataset includes:
 
-*Recipe name
-*Dietary category (vegetarian, vegan or both)
-*Preparation time
-*Allergen information
-*A link to the original recipe
+- Recipe name
+- Dietary category (vegetarian, vegan or both)
+- Preparation time
+- Dietary Labels
+- A link to the original recipe
 
 We checked the recipes for the following dietary requirements and allergen categories:
 
-*Gluten-free
-*Soy-free
-*Dairy-free
-*Egg-free
-*Nut-free
+- Gluten-free
+- Soy-free
+- Dairy-free
+- Egg-free
+- Nut-free
 
 The original recipe links allow users to access the recipes and consult the source information.
 
