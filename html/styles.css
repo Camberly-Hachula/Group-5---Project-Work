@@ -36,6 +36,7 @@ h1#home {
     color: #5F8537;
     text-align: center;
     padding-bottom: 10px;
+    margin-top: 2px;
 }
 
 h2 {
@@ -92,7 +93,6 @@ p {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    padding-top: 0.5px;
     text-align: center;
 }
 
