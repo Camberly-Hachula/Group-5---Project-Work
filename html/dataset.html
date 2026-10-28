@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Dataset</title>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body class="subpage">
 
@@ -33,7 +33,7 @@
     <p>
         Initially, many different potential attributes were considered for the dataset. Two of these were taste and meal type, but both were ultimately discarded for various reasons. It was decided that the attribute "taste" would be discarded, since descriptors such as "spicy" or "sour" are subjective judgements. We also tried using labeling dishes as either "savory" or "sweet", but found that this method was unable to provide enough information about the recipes, especially since we realized the data would mostly contain savory dishes. For this reason we decided to discard the attribute as a whole and shifted the focus to savory dishes only. The meal type attribute was also discarded, as we figured assigning labels like "dinner" or "breakfast" came down too much to personal preference and cultural differences, which may have been difficult for us to decide.</p> 
 
-        <p>To narrow down the objective of the project, we decided to focus only on vegan and vegetarian recipes and we also felt like adding the allergens attribute was relevant, as it would create a more specific purpose for the project. The preparation time attribute was also deemed relevant, as users some user are likely to have different needs. To then make the dataset as authentic as possible, we sourced real life recipes to make up the data. We also made sure to use the same structure for each recipe to keep the information organised and easier to compare.</p>
+        <p>To narrow down the objective of the project, we decided to focus only on vegan and vegetarian recipes and we also felt like adding the allergens attribute was relevant, as it would create a more specific purpose for the project. The preparation time attribute was also deemed relevant, as users are likely to have different needs. To then make the dataset as authentic as possible, we sourced real life recipes to make up the data. We also made sure to use the same structure for each recipe to keep the information organised and easier to compare.</p>
 
         <p>During the data structuring process, the reduction of redundancy in the data was also considered from a couple of perspectives. Firstly, we considered assigning IDs to each allergen as a method of preventing repetition, as well as typing errors. However, it was pointed out to us that this would require extra steps later on, as the algorithm would need to not only fetch information from the dataset, but also match keys with the relevant allergen. Therefore, we decided IDs would not be assigned to the allergens. Additionally, we discussed whether the CSV file format may be more suitable for this project. The data has been serialized in XML format, but as XML requires attaching the attribute labels for each row, it can create a lot of redundancy in a large dataset, whereas the CSV format would be less "cluttered". With the given time frame and scale of this project, though, it was decided that the data would remain in its original XML format.</p>
 
