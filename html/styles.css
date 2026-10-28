@@ -1,17 +1,9 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-image: url("images/indexbackground1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top center;
-    background-color: #F4F7E1;
-}
-
-body.subpage {
     background-image: url("images/background1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;;
+    background-size: 100% auto;
     background-position: top center;
     background-color: #F7F1E5;
 }
@@ -109,6 +101,14 @@ p {
     margin: 10px;
     line-height: 1.5;
     padding: 7px;
+}
+
+.home-info {
+    margin-bottom: 30px;
+}
+
+.home-info + .home-info {
+    margin-top: 40px;
 }
 
 .dataset-info {
