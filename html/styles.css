@@ -38,6 +38,14 @@ h1 {
     text-align: center;
 }
 
+h1#home {
+    font-family: Belgiano-Serif-2, serif;
+    font-size: 45px;
+    color: #5F8537;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 h2 {
     font-family: CreatoDisplay-Medium, sans-serif;
     font-size: 17px;
@@ -92,6 +100,7 @@ p {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
+    padding-top: 0.5px;
     text-align: center;
 }
 
@@ -99,6 +108,7 @@ p {
 .home-info p {
     margin: 10px;
     line-height: 1.5;
+    padding: 7px;
 }
 
 .dataset-info {
@@ -111,6 +121,7 @@ p {
 .dataset-info p {
     margin: 10px;
     line-height: 1.5;
+    padding: 7px;
 }
 
 .algorithm-info {
@@ -123,6 +134,7 @@ p {
 .algorithm-info p {
     margin: 10px;
     line-height: 1.5;
+    padding: 7px;
 }
 
 .team-section {
@@ -157,6 +169,7 @@ p {
 .team-collaboration p {
     margin: 10px;
     line-height: 1.5;
+    padding: 5px;
 }
 
 .team-collaboration {
